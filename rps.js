@@ -1,3 +1,8 @@
+/*
+ * Created by Robert Hamby, 2019
+ * Part of TheOdinProject's rock paper scissors exercise within Web Development 101
+ */
+
 function getComputerSelection() {
 	const plays = ["rock", "paper", "scissors"];
 	const maxRoll = 3;
@@ -104,6 +109,8 @@ function game() {
 	}
 }
 
+// Starts the game() function once the HTML on the page has loaded
+// This just allows the h2 instruction to be seen before prompt() fires off
 window.onload = function(){
 	game();
 }
